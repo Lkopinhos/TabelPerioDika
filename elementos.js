@@ -86,11 +86,11 @@ const Na = {
     Nox: 1
 };
 const Mg = {
-Nome: "Magnésio",
-Numero_atomico: 12,
-Config_eletronica: "1s2 2s2 2p6 3s2",
-Familia: "Alcalino terroso",
-Nox: 2
+    Nome: "Magnésio",
+    Numero_atomico: 12,
+    Config_eletronica: "1s2 2s2 2p6 3s2",
+    Familia: "Alcalino terroso",
+    Nox: 2
 };
 
 const Al = {
