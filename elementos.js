@@ -377,7 +377,7 @@ Nox: [2]
 };
 
 const In = {
-Nome: "Estanho",
+Nome: "Indio",
 Numero_atomico: 49,
 Config_eletronica: "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10",
 Familia: "Metal de transição",
@@ -385,7 +385,7 @@ Nox: [3]
 };
 
 const Sn = {
-Nome: "Chumbo",
+Nome: "Estanho",
 Numero_atomico: 50,
 Config_eletronica: "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p2",
 Familia: "Metal de transição",
