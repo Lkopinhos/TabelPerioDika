@@ -10,8 +10,8 @@ const He = {
     Nome: "Hélio",
     Numero_atomico: 2,
     Config_eletronica: "1s2",
-    Familia: "Gás Noble",
-    Nox: null
+    Familia: "Gás Nobre",
+    Nox: "0 pois é um Gás Nobre"
 };
 
 const Li = {
@@ -74,16 +74,16 @@ const Ne = {
     Nome: "Neônio",
     Numero_atomico: 10,
     Config_eletronica: "1s2 2s2 2p6",
-    Familia: "Gás Noble",
-    Nox: null
+    Familia: "Gás Nobre",
+    Nox: "0, pois é um Gás Nobre"
 };
 
 const Na = {
-Nome: "Sódio",
-Numero_atomico: 11,
-Config_eletronica: "1s2 2s2 2p6 3s1",
-Familia: "Metal Alcalino",
-Nox: 1
+    Nome: "Sódio",
+    Numero_atomico: 11,
+    Config_eletronica: "1s2 2s2 2p6 3s1",
+    Familia: "Metal Alcalino",
+    Nox: 1
 };
 const Mg = {
 Nome: "Magnésio",
@@ -138,7 +138,7 @@ Nome: "Argônio",
 Numero_atomico: 18,
 Config_eletronica: "1s2 2s2 2p6 3s2 3p6",
 Familia: "Gás nobre",
-Nox: null
+Nox: "0, pois é um Gás Nobre"
 };
 
 const K = {
@@ -159,7 +159,7 @@ Nox: 2
 Nome: "Escandium",
 Numero_atomico: 21,
 Config_eletronica: "1s2 2s2 2p6 3s2 3p6 4s2 3d1",
-Familia: "Alkaline earth metal",
+Familia: "Alcalino terroso",
 Nox: [3]
 };
 
@@ -167,7 +167,7 @@ const Ti = {
 Nome: "Titânio",
 Numero_atomico: 22,
 Config_eletronica: "1s2 2s2 2p6 3s2 3p6 4s2 3d2",
-Familia: "Transition metal",
+Familia: "Transition Metal de transição",
 Nox: [4]
 };
 
@@ -175,7 +175,7 @@ const V = {
 Nome: "Vanádio",
 Numero_atomico: 23,
 Config_eletronica: "1s2 2s2 2p6 3s2 3p6 4s2 3d3",
-Familia: "Transition metal",
+Familia: "Metal de transição metal",
 Nox: [5]
 };
 
@@ -183,7 +183,7 @@ const Cr = {
 Nome: "Cobalto",
 Numero_atomico: 24,
 Config_eletronica: "1s2 2s2 2p6 3s2 3p6 4s2 3d5",
-Familia: "Transition metal",
+Familia: "Metal de transição metal",
 Nox: [2, 3, 6]
 };
 
@@ -191,7 +191,7 @@ const Mn = {
 Nome: "Manganês",
 Numero_atomico: 25,
 Config_eletronica: "1s2 2s2 2p6 3s2 3p6 4s2 3d5",
-Familia: "Transition metal",
+Familia: "Metal de transição metal",
 Nox: [2, 4, 7]
 };
 
@@ -199,7 +199,7 @@ const Fe = {
 Nome: "Ferro",
 Numero_atomico: 26,
 Config_eletronica: "1s2 2s2 2p6 3s2 3p6 4s2 3d6",
-Familia: "Transition metal",
+Familia: "Metal de transição",
 Nox: [2, 3]
 };
 
@@ -207,7 +207,7 @@ const Co = {
 Nome: "Cobalto",
 Numero_atomico: 27,
 Config_eletronica: "1s2 2s2 2p6 3s2 3p6 4s2 3d7",
-Familia: "Transition metal",
+Familia: "Metal de transição",
 Nox: [2, 3]
 };
 
@@ -215,7 +215,7 @@ const Ni = {
 Nome: "Níquel",
 Numero_atomico: 28,
 Config_eletronica: "1s2 2s2 2p6 3s2 3p6 4s2 3d8",
-Familia: "Transition metal",
+Familia: "Metal de transição",
 Nox: [2]
 };
 
@@ -223,14 +223,14 @@ const Cu = {
 Nome: "Cobre",
 Numero_atomico: 29,
 Config_eletronica: "1s2 2s2 2p6 3s2 3p6 4s2 3d10",
-Familia: "Transition metal",
+Familia: "Metal de transição",
 Nox: [2]
 };
 var Zn = {
 Nome: "Zinco",
 Numero_atomico: 30,
 Config_eletronica: "1s2 2s2 2p6 3s2 3p6 4s2 3d10",
-Familia: "Transição",
+Familia: "Metal de transição",
 Nox: [2]
 };
 
@@ -278,8 +278,8 @@ var Kr = {
 Nome: "Criptônio",
 Numero_atomico: 36,
 Config_eletronica: "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6",
-Familia: "Gás nobres",
-Nox: null
+Familia: "Gás Nobre",
+Nox: "0, pois é um Gás Nobre"
 };
 
 var Rb = {
@@ -293,7 +293,7 @@ const Sr = {
 Nome: "Estrôncio",
 Numero_atomico: 38,
 Config_eletronica: "1s2 2s2 2p6 3s2 3p6 4s2 3d10",
-Familia: "Metal Alcalino Terra",
+Familia: "Metal Alcalino Terroso",
 Nox: 2
 };
 
@@ -377,7 +377,7 @@ Nox: [2]
 };
 
 const In = {
-Nome: "Indio",
+Nome: "Estanho",
 Numero_atomico: 49,
 Config_eletronica: "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10",
 Familia: "Metal de transição",
@@ -385,7 +385,7 @@ Nox: [3]
 };
 
 const Sn = {
-Nome: "Estanho",
+Nome: "Chumbo",
 Numero_atomico: 50,
 Config_eletronica: "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p2",
 Familia: "Metal de transição",
@@ -419,8 +419,8 @@ const Xe = {
 Nome: "Xenônio",
 Numero_atomico: 54,
 Config_eletronica: "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6",
-Familia: "Gás Noble",
-Nox: null
+Familia: "Gás Nobre",
+Nox: "0, pois é um Gás Nobre"
 };
 
 const Cs = {
@@ -672,7 +672,7 @@ Nome: "Radônio",
 Numero_atomico: 86,
 Config_eletronica: "[Rn] 6d10 7s2 7p6",
 Familia: "Gases nobres",
-Nox: 0
+Nox: "0, pois é um Gás Nobre"
 };
 
 const Fr = {
@@ -854,7 +854,7 @@ Nome: "Darmstadtium",
 Numero_atomico: 110,
 Config_eletronica: "[Rn] 5f14 6d8 7s2",
 Familia: "Metal de transição",
-Nox: ""
+Nox: "..."
 };
 
 const Rg = {
@@ -862,7 +862,7 @@ Nome: "Roentgenium",
 Numero_atomico: 111,
 Config_eletronica: "[Rn] 5f14 6d9 7s2",
 Familia: "Metal de transição",
-Nox: "None"
+Nox: "..."
 };
 
 const Cn = {
@@ -918,5 +918,5 @@ Nome: "Oganesson",
 Numero_atomico: 118,
 Config_eletronica: "[Rn] 5f14 6d10 7s2",
 Familia: "Gases nobres",
-Nox: "None"
+Nox: "..."
 };
